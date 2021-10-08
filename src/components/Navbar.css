@@ -10,12 +10,14 @@
   text-align: right;
   color: white;
   background-color: var(--main-color);
+  z-index: 10;
 }
 
 .menu {
   margin: 0;
   padding: 0;
   display: flex;
+  background-color: var(--main-color);
 }
 
 .menu-tiem {
@@ -53,8 +55,7 @@
     box-sizing: border-box;
     flex-direction: column;
     height: 100vh;
-    /* background-color: lightcoral; */
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     height: 100vh;
