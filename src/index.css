@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -5,6 +7,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "Share Tech Mono", monospace;
+  /* --main-color: #212121; */
+  --main-color: #0a192f;
+  --secondary-color: #14ffec;
+  --text-color: #ccd6f6;
+  background-color: var(--main-color);
 }
 
 code {
