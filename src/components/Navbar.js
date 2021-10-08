@@ -12,17 +12,17 @@ const Navbar = () => {
     <nav className="navbar">
       <ul className={`menu ${open ? "open" : ""}`}>
         <li className="menu-tiem">
-          <a className="menu-link" href="">
+          <a className="menu-link" href="/#experience">
             <span className="menu-num">01.</span> Experience
           </a>
         </li>
         <li className="menu-tiem">
-          <a className="menu-link" href="">
+          <a className="menu-link" href="/#projects">
             <span className="menu-num">02.</span> Projects
           </a>
         </li>
         <li className="menu-tiem">
-          <a className="menu-link" href="">
+          <a className="menu-link" href="/#contact">
             <span className="menu-num">03.</span> Contact
           </a>
         </li>
