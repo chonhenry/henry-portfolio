@@ -28,9 +28,9 @@ const Navbar = () => {
         </li>
       </ul>
       {open ? (
-        <i class="fas fa-times" onClick={toggle}></i>
+        <i className="fas fa-times" onClick={toggle}></i>
       ) : (
-        <i class="fas fa-bars" onClick={toggle}></i>
+        <i className="fas fa-bars" onClick={toggle}></i>
       )}
     </nav>
   );
