@@ -126,9 +126,7 @@
   .intro-image {
     z-index: -10;
   }
-}
 
-@media (max-width: 500px) {
   .sentence {
     font-size: 0.8rem;
   }
@@ -145,5 +143,12 @@
     width: 120px;
     height: 40px;
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .img-container {
+    width: 250px;
+    height: 250px;
   }
 }
