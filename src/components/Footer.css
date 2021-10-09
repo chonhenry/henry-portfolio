@@ -1,0 +1,43 @@
+.footer {
+  margin: 30px 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-link {
+  color: var(--secondary-text-color);
+}
+
+.fa-circle {
+  margin: 0 8px;
+  color: var(--secondary-text-color);
+  font-size: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .fa-github,
+.footer .fa-linkedin-in {
+  font-size: 1.3rem;
+}
+
+.footer::before,
+.footer::after {
+  content: "";
+  width: 150px;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-100%);
+  background-color: var(--secondary-text-color);
+}
+
+.footer::before {
+  right: 110%;
+}
+
+.footer::after {
+  left: 110%;
+}

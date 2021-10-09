@@ -29,3 +29,9 @@
 .fa-at {
   margin-right: 10px;
 }
+
+@media (max-width: 550px) {
+  .contact-texts {
+    width: 80vw;
+  }
+}
