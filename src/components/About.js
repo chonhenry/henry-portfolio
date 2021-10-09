@@ -1,5 +1,6 @@
 import React from "react";
 import image from "../assets/pic.jpeg";
+import resume from "../assets/Henry_Chon_Resume.pdf";
 import "./About.css";
 
 const About = () => {
@@ -11,12 +12,15 @@ const About = () => {
           <strong>Henry Chon</strong>
         </p>
         <p className="introduction">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla
-          perspiciatis sint aliquid hic temporibus ducimus dicta, ea delectus
-          eum architecto et, fugit minus rem, quaerat quia rerum atque? Unde,
-          suscipit!
+          I enjoy playing with technology. I started my self-taught coding
+          journey in January 2020.
         </p>
-        <a className="resume-btn" href="../assets">
+        <a
+          className="resume-btn"
+          href={resume}
+          target="_blank"
+          rel="noreferrer"
+        >
           Resume
         </a>
       </div>

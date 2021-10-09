@@ -6,7 +6,6 @@ import Project from "./components/Project";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { projects } from "./assets/data";
-import { Divider } from "antd";
 
 function App() {
   return (

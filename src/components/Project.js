@@ -7,7 +7,12 @@ const Project = ({ project }) => {
   return (
     <div className="project">
       <div className="project-img-container">
-        <a href={link} className="project-link" target="_blank">
+        <a
+          href={link}
+          className="project-link"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img className="project-img" src={image} alt="" />
         </a>
       </div>
@@ -32,10 +37,10 @@ const Project = ({ project }) => {
         </div>
         <div className="logos">
           <a href={github} target="_blank" rel="noreferrer">
-            <i class="fab fa-github logo"></i>
+            <i className="fab fa-github logo"></i>
           </a>
           <a href={link} target="_blank" rel="noreferrer">
-            <i class="fas fa-external-link-alt logo"></i>
+            <i className="fas fa-external-link-alt logo"></i>
           </a>
         </div>
       </div>

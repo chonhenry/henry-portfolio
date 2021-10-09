@@ -13,11 +13,11 @@ const Contact = () => {
         to me. Also feel free to connect me on Linkedin.
       </p>
       <div className="contact-info">
-        <i class="fas fa-phone-alt"></i>
+        <i className="fas fa-phone-alt"></i>
         +1 201-214-7248
       </div>
       <div className="contact-info">
-        <i class="fas fa-at"></i>
+        <i className="fas fa-at"></i>
         chonhenry@outlook.com
       </div>
     </section>

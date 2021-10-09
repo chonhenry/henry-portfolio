@@ -1,4 +1,6 @@
 import css_gallery from "./project-images/css-gallery.png";
+import ig_clone from "./project-images/ig_clone.png";
+import chat_app from "./project-images/react-chat.png";
 
 const experiences = [
   {
@@ -45,7 +47,7 @@ const projects = [
     github: "https://github.com/chonhenry/instagram-clone",
     link: "https://hc-instagram-clone.herokuapp.com",
     description: "An Instagram clone built with the MERN stack.",
-    image: css_gallery,
+    image: ig_clone,
   },
   {
     id: 3,
@@ -55,7 +57,7 @@ const projects = [
     link: "https://react-chat-my-app.herokuapp.com/login",
     description:
       "A real time chat application that allows users to send and receive real-time messages.",
-    image: css_gallery,
+    image: chat_app,
   },
 ];
 

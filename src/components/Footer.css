@@ -21,6 +21,12 @@
 .footer .fa-github,
 .footer .fa-linkedin-in {
   font-size: 1.3rem;
+  transition: 0.5s;
+}
+
+.footer .fa-github:hover,
+.footer .fa-linkedin-in:hover {
+  color: var(--secondary-color);
 }
 
 .footer::before,
