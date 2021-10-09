@@ -4,3 +4,21 @@
   align-items: center;
   position: relative;
 }
+
+.projects {
+  max-width: 850px;
+  margin: 0 30px;
+  margin-bottom: 120px;
+}
+
+.projects-heading {
+  position: relative;
+  color: var(--text-color);
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+.heading-num {
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+}

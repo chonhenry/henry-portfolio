@@ -1,0 +1,141 @@
+.project {
+  /* background-color: rebeccapurple; */
+  width: 850px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.project-img-container {
+  max-width: 850px;
+  position: relative;
+}
+
+.project-link {
+  width: 80%;
+  /* background-color: salmon; */
+  display: inline-block;
+  position: relative;
+}
+
+.project-link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0a192f;
+  opacity: 0.8;
+  transition: 0.5s opacity;
+}
+
+.project-link:hover.project-link::before {
+  opacity: 0;
+}
+
+.project-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.details {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background-color: #112240;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 3px;
+}
+
+.project-name-container {
+  margin: 0;
+  color: var(--secondary-color);
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+.project-name {
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition: 0.5s;
+}
+
+.description-box {
+  /* background-color: #112240; */
+  color: var(--text-color);
+  text-align: right;
+  margin-bottom: 60px;
+}
+
+.technologies {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+  /* width: 90%; */
+}
+
+.technology {
+  color: var(--secondary-text-color);
+  padding-left: 10px;
+}
+
+.logos {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo {
+  color: var(--text-color);
+  font-size: 1.2rem;
+  padding-left: 20px;
+}
+
+@media (max-width: 850px) {
+  .project {
+    width: 80vw;
+  }
+}
+
+@media (max-width: 700px) {
+  .project-img-container {
+    width: 100%;
+    position: relative;
+  }
+
+  .project-link {
+    width: 100%;
+  }
+
+  .project-link::before {
+    /* opacity: 0; */
+  }
+
+  .details {
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 3px;
+    transform: translateY(0%);
+    background-color: rgb(10, 25, 47, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .description-box {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .technologies {
+    justify-content: center;
+  }
+}

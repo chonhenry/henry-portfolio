@@ -6,9 +6,6 @@ const Experience = () => {
   const renderExperiences = () => {
     return experiences.map((experience) => (
       <div key={experience.title + "-" + experience.company}>
-        <h2 className="experience-heading">
-          <span className="heading-num">01.</span> My Experience
-        </h2>
         <div className="job-heading">
           {experience.title}
           <span className="company">
@@ -36,6 +33,9 @@ const Experience = () => {
 
   return (
     <div className="experience" id="experience">
+      <h2 className="experience-heading">
+        <span className="heading-num">01.</span> My Experience
+      </h2>
       {renderExperiences()}
     </div>
   );

@@ -1,3 +1,5 @@
+import css_gallery from "./project-images/css-gallery.png";
+
 const experiences = [
   {
     title: "Fontend Developer",
@@ -26,4 +28,35 @@ const experiences = [
   },
 ];
 
-export { experiences };
+const projects = [
+  {
+    id: 1,
+    name: "CSS Gallery",
+    technologies: ["React", "Next.js", "Contentful"],
+    github: "https://github.com/chonhenry/css-gallery",
+    link: "https://css-gallery-peach.vercel.app",
+    description: "A gallery website for CSS design.",
+    image: css_gallery,
+  },
+  {
+    id: 2,
+    name: "Instagram Clone",
+    technologies: ["React", "Redux", "MongoDB", "Express.js", "Node.js"],
+    github: "https://github.com/chonhenry/instagram-clone",
+    link: "https://hc-instagram-clone.herokuapp.com",
+    description: "An Instagram clone built with the MERN stack.",
+    image: css_gallery,
+  },
+  {
+    id: 3,
+    name: "Realtime Chat App",
+    technologies: ["React", "Redux", "Firebase"],
+    github: "https://github.com/chonhenry/react-chat",
+    link: "https://react-chat-my-app.herokuapp.com/login",
+    description:
+      "A real time chat application that allows users to send and receive real-time messages.",
+    image: css_gallery,
+  },
+];
+
+export { experiences, projects };

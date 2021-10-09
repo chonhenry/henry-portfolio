@@ -1,7 +1,11 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
-import Experience from ".//components/Experience";
+import Experience from "./components/Experience";
+import Project from "./components/Project";
+import Contact from "./components/Contact";
+import { projects } from "./assets/data";
+import { Divider } from "antd";
 
 function App() {
   return (
@@ -9,6 +13,17 @@ function App() {
       <Navbar />
       <About />
       <Experience />
+
+      <section className="projects" id="projects">
+        <h2 className="projects-heading">
+          <span className="heading-num">02.</span> My Projects
+        </h2>
+        {projects.map((project) => (
+          <Project key={project.id} project={project} />
+        ))}
+      </section>
+
+      <Contact />
     </div>
   );
 }
