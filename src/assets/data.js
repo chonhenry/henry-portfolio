@@ -1,6 +1,7 @@
 import css_gallery from "./project-images/css-gallery.png";
 import ig_clone from "./project-images/ig_clone.png";
 import chat_app from "./project-images/react-chat.png";
+import cryptoapp from "./project-images/cryptoapp.png";
 
 const experiences = [
   {
@@ -32,7 +33,17 @@ const experiences = [
 
 const projects = [
   {
-    id: 1,
+    id: 4,
+    name: "Cryptocurrency App",
+    technologies: ["React", "Redux", "Typescript", "Tailwind-CSS", "Firebase"],
+    github: "https://github.com/chonhenry/cryptoapp",
+    link: "https://amazing-jones-151340.netlify.app/",
+    description:
+      "A website that shows information of different cryptocurrencies. You can also create an account to store your crypto portfolio.",
+    image: cryptoapp,
+  },
+  {
+    id: 3,
     name: "CSS Gallery",
     technologies: ["React", "Next.js", "Contentful"],
     github: "https://github.com/chonhenry/css-gallery",
@@ -50,7 +61,7 @@ const projects = [
     image: ig_clone,
   },
   {
-    id: 3,
+    id: 1,
     name: "Realtime Chat App",
     technologies: ["React", "Redux", "Firebase"],
     github: "https://github.com/chonhenry/react-chat",
