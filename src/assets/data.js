@@ -39,7 +39,7 @@ const projects = [
     github: "https://github.com/chonhenry/cryptoapp",
     link: "https://amazing-jones-151340.netlify.app/",
     description:
-      "A website that shows information of different cryptocurrencies. You can also create an account to store your crypto portfolio.",
+      "A website that shows information of different cryptocurrencies. Users can also create an account to store their crypto portfolio.",
     image: cryptoapp,
   },
   {
