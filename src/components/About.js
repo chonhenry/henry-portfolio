@@ -17,7 +17,7 @@ const About = () => {
         </p>
         <a
           className="resume-btn"
-          href="https://docs.google.com/document/d/1Zr1oOl-CC-SUzu-x5HThSKpTqqWW4RFon016RJRzGnc/edit?usp=sharing"
+          href={resume}
           target="_blank"
           rel="noreferrer"
         >
